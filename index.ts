@@ -1,7 +1,7 @@
-import { hemera } from './hemera';
+import { hemera, IHemeraPath } from './hemera';
 import { mongoConnect } from './mongo';
 import { Vk } from './Vk';
 import { logger } from './logger';
 import { handlerDecorator } from './decorators/handlerDecorator';
 
-export { hemera, mongoConnect, Vk, logger, handlerDecorator };
+export { hemera, IHemeraPath, mongoConnect, Vk, logger, handlerDecorator };
